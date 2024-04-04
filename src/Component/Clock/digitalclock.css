@@ -1,0 +1,43 @@
+.digital-clock-container {
+    text-align: center;
+    /* margin-top: 20px;
+    position: absolute;
+    right: 70%;
+    top: 10%; */
+    /* background: linear-gradient(to right, #e77575, #247ddd73); */
+    color: #09e2faf2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #000000c2;
+    width: 290px;
+    display: flex;
+}
+.main-clock{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 200px;
+}
+  
+  .digital-clock-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .digital-time {
+    font-size: 48px; 
+    font-weight: bold;
+  }
+  .btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 10px;
+  }
