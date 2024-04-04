@@ -1,1 +1,42 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap:70px;
+}
 
+.grid-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross {
+  color: rgb(227, 227, 241);
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
