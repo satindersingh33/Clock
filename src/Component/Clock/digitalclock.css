@@ -30,9 +30,6 @@
     font-weight: bold;
   }
   .btn-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  padding-top: 10px;
+    padding-top: 10px;
+    font-size: x-large;
   }

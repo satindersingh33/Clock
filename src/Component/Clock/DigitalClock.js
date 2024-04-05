@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './digitalclock.css'; 
 import CircleClock from './CircleClock';
+import BackIcon from '../BackIcon';
 
 function DigitalClock() {
   const [time, setTime] = useState(new Date());
@@ -36,6 +37,7 @@ function DigitalClock() {
 
   return (
     <>
+    <BackIcon/>
     <div className="main-clock">
     <div className="digital-clock-container"> 
       <div className="digital-time">{formatDateTime(time)}</div>    

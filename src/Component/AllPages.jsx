@@ -1,17 +1,13 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "./Clock/digitalclock.css"
-function AllPages() {
-  const navigate = useNavigate();
 
+function AllPages() {
   return (
     <div>
-      <div  className='btn-container'   >
-       
-            <button onClick={() => navigate('/clock')}>Clock</button>
-        
-            <button onClick={() => navigate('/bingo')}>Bingo</button>
-        
+      <div className='btn-container'>
+         1.Project<Link to="/clock" className="link">Clock</Link><br></br>
+         2.Project<Link to="/bingo" className="link">Bingo</Link>
       </div>
     </div>
   );
